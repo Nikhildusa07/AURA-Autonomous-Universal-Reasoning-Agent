@@ -2,7 +2,8 @@ import React, { useCallback, useEffect, useState } from "react";
 import "./EvaluationDashboard.css";
 
 const API_BASE =
-  import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
+  import.meta.env.VITE_API_BASE_URL ||
+  "https://aura-autonomous-universal-reasoning-agent.onrender.com";
 
 function formatPercentage(value) {
   const number = Number(value || 0);
