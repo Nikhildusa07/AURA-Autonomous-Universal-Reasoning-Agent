@@ -1,0 +1,41 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment
+.env
+.env.*
+
+# FastAPI / runtime
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary backups
+*.backup
+*.bak
+
+# Playwright
+playwright-report/
+test-results/
+
+backend/.aura_llm_state.json
