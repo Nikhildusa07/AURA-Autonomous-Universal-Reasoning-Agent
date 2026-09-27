@@ -189,8 +189,8 @@ export default function EvaluationDashboard() {
   );
 
   const successfulBenchmarks = Number(
-    report?.successful || 0
-  );
+  report?.successful_benchmarks || 0
+    );
 
   const successRate = Number(
     report?.success_rate || 0
